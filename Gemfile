@@ -55,9 +55,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+gem "simple_form"
